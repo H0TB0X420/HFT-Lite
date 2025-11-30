@@ -1,0 +1,2 @@
+[console_scripts]
+hft-lite = hft_lite.main:cli

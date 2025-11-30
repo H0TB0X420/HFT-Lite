@@ -1,0 +1,78 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "hft-lite"
+version = "0.1.0"
+description = "Event prediction market arbitrage system"
+readme = "README.md"
+requires-python = ">=3.11"
+
+dependencies = [
+    # Async
+    "websockets>=12.0",
+    "aiohttp>=3.9.0",
+    
+    # IBKR
+    "ib_insync>=0.9.86",
+    
+    # Crypto (for Kalshi auth)
+    "cryptography>=41.0.0",
+    "pyjwt>=2.8.0",
+    
+    # Data handling
+    "pyyaml>=6.0",
+    
+    # Type checking (runtime)
+    "typing_extensions>=4.8.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.4.0",
+    "pytest-asyncio>=0.21.0",
+    "pytest-cov>=4.1.0",
+    "mypy>=1.5.0",
+    "ruff>=0.1.0",
+    "black>=23.9.0",
+]
+
+[project.scripts]
+hft-lite = "hft_lite.main:cli"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["hft_lite*"]
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
+testpaths = ["hft_lite/tests"]
+addopts = "-v --tb=short"
+
+[tool.mypy]
+python_version = "3.12"
+strict = true
+warn_return_any = true
+warn_unused_configs = true
+ignore_missing_imports = true
+
+[tool.ruff]
+target-version = "py312"
+line-length = 100
+select = [
+    "E",   # pycodestyle errors
+    "W",   # pycodestyle warnings
+    "F",   # Pyflakes
+    "I",   # isort
+    "B",   # flake8-bugbear
+    "C4",  # flake8-comprehensions
+    "UP",  # pyupgrade
+]
+ignore = [
+    "E501",  # line too long (handled by black)
+]
+
+[tool.black]
+line-length = 100
+target-version = ["py312"]
