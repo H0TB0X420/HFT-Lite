@@ -1,0 +1,11 @@
+{
+  "limits": {
+    "max_capital_per_market": 5.00,
+    "max_contracts_per_event": 5,
+    "min_net_profit": 0.00,
+    "max_stale_seconds": 60
+  },
+  "execution": {
+    "mode": "logging"
+  }
+}

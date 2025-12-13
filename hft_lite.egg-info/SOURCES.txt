@@ -5,5 +5,3 @@ hft_lite.egg-info/dependency_links.txt
 hft_lite.egg-info/entry_points.txt
 hft_lite.egg-info/requires.txt
 hft_lite.egg-info/top_level.txt
-tests/test_core_types.py
-tests/test_event_bus.py

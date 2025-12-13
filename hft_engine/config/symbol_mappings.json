@@ -1,0 +1,33 @@
+{
+  "mappings": [
+    {
+      "unified_symbol": "HOUSE_2026_DEM",
+      "description": "House Control 2026 - Democratic",
+      "kalshi_ticker": "CONTROLH-2026-D",
+      "ibkr_yes_conid": 762089343,
+      "ibkr_no_conid": 762089344
+    },
+    {
+      "unified_symbol": "HOUSE_2026_REP",
+      "description": "House Control 2026 - Republican",
+      "kalshi_ticker": "CONTROLH-2026-R",
+      "ibkr_yes_conid": 773659700,
+      "ibkr_no_conid": 773659707
+    },
+    {
+      "unified_symbol": "SENATE_2026_DEM",
+      "description": "Senate Control 2026 - Democratic",
+      "kalshi_ticker": "CONTROLS-2026-D",
+      "ibkr_yes_conid": 773659815,
+      "ibkr_no_conid": 773659816
+    },
+    {
+      "unified_symbol": "SENATE_2026_REP",
+      "description": "Senate Control 2026 - Republican",
+      "kalshi_ticker": "CONTROLS-2026-R",
+      "ibkr_yes_conid": 745924267,
+      "ibkr_no_conid": 745924270
+    }
+    
+  ]
+}
