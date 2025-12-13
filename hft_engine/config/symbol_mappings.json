@@ -27,7 +27,41 @@
       "kalshi_ticker": "CONTROLS-2026-R",
       "ibkr_yes_conid": 745924267,
       "ibkr_no_conid": 745924270
+    },
+    {
+      "unified_symbol": "Jan_FED_Lower50+",
+      "description": "Jan Fed Decision Lower bps 50+",
+      "kalshi_ticker": "KXFEDDECISION-26JAN-C26",
+      "ibkr_yes_conid": 814524395,
+      "ibkr_no_conid": 814524398
+    },
+    {
+      "unified_symbol": "Jan_FED_Lower25",
+      "description": "Jan Fed Decision Lower bps 25",
+      "kalshi_ticker": "KXFEDDECISION-26JAN-C25",
+      "ibkr_yes_conid": 814524385,
+      "ibkr_no_conid": 814524388
+    },
+    {
+      "unified_symbol": "Jan_FED_NoChange",
+      "description": "Jan Fed Decision No Change",
+      "kalshi_ticker": "KXFEDDECISION-26JAN-H0",
+      "ibkr_yes_conid": 814524376,
+      "ibkr_no_conid": 814524381
+    },
+    {
+      "unified_symbol": "Pres_Nom_Rep_Vance",
+      "description": "US Presidential Candidate Republican JD Vance",
+      "kalshi_ticker": "KXPRESNOMR-28-JDV",
+      "ibkr_yes_conid": 745924112,
+      "ibkr_no_conid": 745924117
+    },
+    {
+      "unified_symbol": "Pres_Nom_Dem_Newsome",
+      "description": "US Presidential Candidate Democrat Newsome",
+      "kalshi_ticker": "KXPRESNOMD-28-GN",
+      "ibkr_yes_conid": 745924025,
+      "ibkr_no_conid": 745924028
     }
-    
   ]
 }
