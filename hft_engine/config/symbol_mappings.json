@@ -62,6 +62,20 @@
       "kalshi_ticker": "KXPRESNOMD-28-GN",
       "ibkr_yes_conid": 745924025,
       "ibkr_no_conid": 745924028
+    },
+    {
+      "unified_symbol": "Fed_Chair_Nom_Hassett",
+      "description": "Presidential Fed Chair Nomination",
+      "kalshi_ticker": "KXFEDCHAIRNOM-29-KH",
+      "ibkr_yes_conid": 802472686,
+      "ibkr_no_conid": 802472688
+    },
+     {
+      "unified_symbol": "Fed_Chair_Nom_Warsh",
+      "description": "Presidential Fed Chair Nomination",
+      "kalshi_ticker": "KXFEDCHAIRNOM-29-KW",
+      "ibkr_yes_conid": 802472676,
+      "ibkr_no_conid": 802472683
     }
   ]
 }
